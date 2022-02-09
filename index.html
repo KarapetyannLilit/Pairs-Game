@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="write">
+        <h1>Marvel</h1>
+        <h2> Pairs Game</h2>
+        <h3>Click any card to begin</h3>
+        <div id="time">
+            00:00:00
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div id="container"></div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div id="text1" class="modal-body"> </div>
+        <button class="btn restart" type="submit" onClick="restart()">Restart</button>
+
+    </div>
+
+    <div class="buttons">
+        <button class="btn restart" type="submit" onClick="restart()">Restart</button>
+        <button id="exit" class="btn exit" type="submit" onClick="exit()">Exit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
